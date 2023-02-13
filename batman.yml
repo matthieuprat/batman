@@ -1,0 +1,12 @@
+---
+- github_username: matthieuprat
+  email: matthieuprat@gocardless.com
+  days:
+    - Mon
+    - Tue
+    - Thu
+    - Fri
+  desks:
+    - Desk 8
+    - Desk 7
+  encrypted_access_token: t1vL0HWnO2OtA5Qada0eCiFaYxst1rr5YBlMF4L1n3Ss95OR1Yts2AkrdZPZnv8jy6qqewHNmgCDnCTf/0/cZOZ1V6ZkX55XX83Nw3Yk67jCfBG84MizqvmvqLav4ROtALYGZSjFvpfwJ7wAV9oF8IOtvc6d5rkz7jZzvS4skieCf1IsGDElz3uzk2fIRYII4ArghY+VAJMaOrecP9rqwp4BNIibltD5lGJScFYwj3003kmPPm6SMOiPMUKcnlwnujxQvFt9vhYLoe1NfiEwrP7VY7RG7AzCY6FNe4ADUO/Rsu5FP4vZ/pfk075HZ/bh32ePC1HpUbkcHL+QQ5r3oQ==
