@@ -11,7 +11,7 @@ in and Batman will take care of the rest.
 
 ## How does Batman work?
 
-Batman works [every weekday at midnight][2]. It reads the [`batman.yml`][5] file to check
+Batman works [every weekday around 1 AM UTC][2]. It reads the [`batman.yml`][5] file to check
 which desks it shall book and, well, books them.
 
 ## Bonanza, I'm in. What should I do?
@@ -40,7 +40,7 @@ which desks it shall book and, well, books them.
 
 8. Yolo the changes to the `main` branch
 
-[1]: https://dashboard.robinpowered.com/gocardless/
+[1]: https://dashboard.robinpowered.com/
 [2]: .github/workflows/batman.yml
 [3]: ../../edit/main/batman.yml
 [4]: https://dashboard.robinpowered.com/gocardless/office?locations=767466&levels=206728
