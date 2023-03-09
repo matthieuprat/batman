@@ -36,7 +36,7 @@ If you'd like Batman to deal with Robin on your behalf:
 
 6. Encrypt your access token:
    ```bash
-   ./encrypt
+   ./encrypt.sh
    ```
 
 7. Copy and paste the encrypted access token to your own `batman.yml` entry
