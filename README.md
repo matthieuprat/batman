@@ -1,4 +1,4 @@
-# Batman 🦇
+# Batman
 
 [Robin][1]'s companion.
 
@@ -6,19 +6,19 @@
 
 ## What does Batman do?
 
-Batman books your desk on [Robin][1] so you don't have to. Just tell him which days you're
-in and Batman will take care of the rest.
+Batman books your desk on [Robin][1] so you don't have to. Just tell Batman which days you're
+in and they'll take care of the rest.
 
 ## How does Batman work?
 
-Batman works [every weekday around 1 AM UTC][2]. It reads the [`batman.yml`][5] file to check
-which desks it shall book and, well, books them.
+Batman works [every weekday at 1 AM UTC][2]. They read the [`batman.yml`][5] file to check
+which desks they shall book and, well, book them.
 
 ## Bonanza, I'm in. What should I do?
 
 If you'd like Batman to deal with Robin on your behalf:
 
-1. Open [`batman.yml`][3]
+1. Open the [`batman.yml`][3] file
 
 2. Duplicate an existing entry and replace `github_username` and `email` with your own.
    Also set the list of days on which you want Batman to book a desk for you.
@@ -27,24 +27,25 @@ If you'd like Batman to deal with Robin on your behalf:
 
 4. Spot a couple of desks you fancy (e.g. "Desk 1" and "Desk 2"). Add them to your own
    `batman.yml` entry under the `desks` key. Batman will try to book each desk in order
-   one after the other until it succeeeds.
+   one after the other until it succeeeds (hopefully).
 
-5. Open the developer tools of your browser and run the following snippet to copy your Robin access token:
+5. Head back to the Robin dashboard and open the developer tools of your browser. Then
+   run the following snippet to copy your Robin access token:
    ```js
    copy(JSON.parse(decodeURIComponent(document.cookie.match("_rbn_session=(.*?);")[1])).access_token)
    ```
 
-6. Encrypt your access token:
+6. Run the `encrypt.sh` utility and paste your Robin access token to encrypt it:
    ```bash
    ./encrypt.sh
    ```
 
 7. Copy and paste the encrypted access token to your own `batman.yml` entry
 
-8. Yolo the changes to the `main` branch
+8. Submit a pull request
 
 [1]: https://robinpowered.com
 [2]: .github/workflows/batman.yml
 [3]: ../../edit/main/batman.yml
-[4]: https://dashboard.robinpowered.com/gocardless/office?locations=767466&levels=206728
+[4]: https://dashboard.robinpowered.com/
 [5]: batman.yml
